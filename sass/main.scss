@@ -1,0 +1,68 @@
+@import 'normalize';
+@import '1140';
+@import 'utility';
+@import 'nav';
+
+// global styles
+html {
+	font-size: 100%;
+}
+
+body {
+	font-size: 1em;
+	font-family: "Helvetica Neue", sans-serif;
+}
+
+a, a:visited {
+	color: darken($blue, 0%);
+	text-decoration: none;
+}
+
+a:hover {
+	color: darken($blue, 10%);
+	@include a-hover; 
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+.main-content {
+	section {
+		margin-bottom: 2em;
+	}
+
+	.intro {
+		background: $gray-light;
+		padding: 5em 0 2.5em;		
+		.profile-pic {
+			text-align: center;
+			// z-index: 20;
+		}
+		.intro-img {
+			max-width: 66%;	
+		}
+		.profile-blurb {
+			// position: relative;
+			// overflow: auto;
+			p {
+				font-size: 2em;
+				font-weight: 700;
+				line-height: 1.1;
+				margin: 2em 0;
+			}
+		}
+	}
+
+	.posts-lists {
+		.post-date {
+			text-align: right;
+		}
+	}
+}
+

@@ -1,0 +1,15 @@
+@mixin li-inline {
+	display: inline;
+}
+
+@mixin a-hover {
+	-webkit-transition: color 0.25s linear;
+	-moz-transition: color 0.25s linear;
+	transition: color 0.25s linear;;
+}
+
+.circle-img {
+	-webkit-border-radius: 50em;
+	-moz-border-radius: 50em;
+	border-radius: 50em;
+}

@@ -1,0 +1,94 @@
+---
+layout: default
+title: Your New Jekyll Site
+---
+
+<div class="main-content">
+
+	<section class="intro">
+		<a href="#intro"></a>
+		<div class="container">
+			<div class="row">
+				<div class="four columns profile-pic">
+					<img src="img/me.png" alt="Picture of me" class="intro-img circle-img" />
+				</div>
+
+				<div class="seven columns profile-blurb" >
+					<p>
+						<!-- <span> -->
+							I'm Nick Lau, a Chicago 
+							<br />
+							designer &amp; developer.
+						<!-- </span> -->
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="container">
+		<a href="#posts"></a>
+		<section class="posts">
+			<div class="row">
+			  	<h1 class="eight columns offset-by-four">Posts/Recent Thoughts</h1>
+			</div>
+
+			<ul class="posts-lists">
+				{% for post in site.posts %}
+					<li class="row">
+						<div class="four columns post-date">
+							{{ post.date | date_to_string }}					     		    
+						</div>
+
+						<div class="eight columns post-title">
+							<a href="{{ post.url }}">{{ post.title }}</a>
+						</div>
+				  	</li>
+			  	{% endfor %}
+		  	</ul>
+		</section>
+
+		<section class="projects">
+			<a href="#projects"></a>
+			<div class="row">
+			  	<h1 class="eight columns offset-by-four">Work/Selected Projects</h1>
+			</div>
+
+			<div class="row">
+				<div class="four columns project-pic">
+					Img placeholder
+				</div>
+
+				<div class="eight columns">
+					<h2>Title of project</h2>
+					<p>
+						Description blah blah blah blah
+					</p>
+					<a href="#">
+						Visit Site
+					</a>		
+				</div>
+			</div>
+		</section>
+
+		<section class="contact">
+			<a href="#contact"></a>
+			<div class="row">
+			  	<h1 class="eight columns offset-by-four">Contact/Holla At Me</h1>
+			</div>
+
+			<div class="row">
+				<div class="eight columns offset-by-four">
+					<ul class="">
+						<li><a href="#">ncwlau@gmail.com</a></li>
+						<li><a href="http://twitter.com/nicklauftw" target="_blank">@nicklauftw</a></li>
+						<li><a href="http://github.com/nicklauftw" target="_blank">/nicklauftw</a></li>
+						<li><a href="http://instagram.com/nicklauftw" target="_blank">@nicklauftw</a></li>
+					</ul>				
+				</div>
+			</div>
+		</section>
+	</div>
+
+</div> 
+<!-- end container -->

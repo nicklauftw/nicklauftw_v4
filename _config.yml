@@ -1,0 +1,3 @@
+name: Nick Lau FTW v4
+pygments: true
+exclude: ['sass', 'node_modules', 'gruntfile.js', 'package.json', 'readme.md' ]

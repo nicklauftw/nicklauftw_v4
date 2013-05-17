@@ -1,0 +1,256 @@
+/* Base grid set to a min width of 80% and max width of 71.25em.  16px/1em base font size * 71.25em = 1140px
+================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nicklau\/Sites\/nicklauftw_v4\/sass\/1140\.scss}line{font-family:\000033}}
+.container {
+  position: relative;
+  width: 90%;
+  max-width: 71.25em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nicklau\/Sites\/nicklauftw_v4\/sass\/1140\.scss}line{font-family:\000034}}
+.column, .columns {
+  float: left;
+  display: inline;
+  position: relative;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nicklau\/Sites\/nicklauftw_v4\/sass\/1140\.scss}line{font-family:\000035}}
+.row {
+  width: 100%;
+  overflow: auto;
+}
+
+/* Fluid Images */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nicklau\/Sites\/nicklauftw_v4\/sass\/1140\.scss}line{font-family:\000038}}
+.row .column img, .row .columns img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Nested Column Classes */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nicklau\/Sites\/nicklauftw_v4\/sass\/1140\.scss}line{font-family:\0000311}}
+.column.alpha, .columns.alpha {
+  margin-left: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nicklau\/Sites\/nicklauftw_v4\/sass\/1140\.scss}line{font-family:\0000312}}
+.column.omega, .columns.omega {
+  margin-right: 0;
+}
+
+/* Base Grid */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nicklau\/Sites\/nicklauftw_v4\/sass\/1140\.scss}line{font-family:\0000315}}
+.row .one.column {
+  width: 6.333333333%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nicklau\/Sites\/nicklauftw_v4\/sass\/1140\.scss}line{font-family:\0000316}}
+.row .two.columns {
+  width: 14.666666666%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nicklau\/Sites\/nicklauftw_v4\/sass\/1140\.scss}line{font-family:\0000317}}
+.row .three.columns {
+  width: 22.999999999%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nicklau\/Sites\/nicklauftw_v4\/sass\/1140\.scss}line{font-family:\0000318}}
+.row .four.columns {
+  width: 31.333333333%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nicklau\/Sites\/nicklauftw_v4\/sass\/1140\.scss}line{font-family:\0000319}}
+.row .five.columns {
+  width: 39.666666666%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nicklau\/Sites\/nicklauftw_v4\/sass\/1140\.scss}line{font-family:\0000320}}
+.row .six.columns {
+  width: 47.999999999%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nicklau\/Sites\/nicklauftw_v4\/sass\/1140\.scss}line{font-family:\0000321}}
+.row .seven.columns {
+  width: 56.333333333%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nicklau\/Sites\/nicklauftw_v4\/sass\/1140\.scss}line{font-family:\0000322}}
+.row .eight.columns {
+  width: 64.666666666%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nicklau\/Sites\/nicklauftw_v4\/sass\/1140\.scss}line{font-family:\0000323}}
+.row .nine.columns {
+  width: 72.999999999%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nicklau\/Sites\/nicklauftw_v4\/sass\/1140\.scss}line{font-family:\0000324}}
+.row .ten.columns {
+  width: 81.333333333%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nicklau\/Sites\/nicklauftw_v4\/sass\/1140\.scss}line{font-family:\0000325}}
+.row .eleven.columns {
+  width: 89.666666666%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nicklau\/Sites\/nicklauftw_v4\/sass\/1140\.scss}line{font-family:\0000326}}
+.row .twelve.columns {
+  width: 97.999999999%;
+}
+
+/* Offsets */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nicklau\/Sites\/nicklauftw_v4\/sass\/1140\.scss}line{font-family:\0000329}}
+.row .offset-by-one {
+  padding-left: 8.3333%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nicklau\/Sites\/nicklauftw_v4\/sass\/1140\.scss}line{font-family:\0000330}}
+.row .offset-by-two {
+  padding-left: 16.667%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nicklau\/Sites\/nicklauftw_v4\/sass\/1140\.scss}line{font-family:\0000331}}
+.row .offset-by-three {
+  padding-left: 25%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nicklau\/Sites\/nicklauftw_v4\/sass\/1140\.scss}line{font-family:\0000332}}
+.row .offset-by-four {
+  padding-left: 33%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nicklau\/Sites\/nicklauftw_v4\/sass\/1140\.scss}line{font-family:\0000333}}
+.row .offset-by-five {
+  padding-left: 41.667%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nicklau\/Sites\/nicklauftw_v4\/sass\/1140\.scss}line{font-family:\0000334}}
+.row .offset-by-six {
+  padding-left: 50%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nicklau\/Sites\/nicklauftw_v4\/sass\/1140\.scss}line{font-family:\0000335}}
+.row .offset-by-seven {
+  padding-left: 58.333%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nicklau\/Sites\/nicklauftw_v4\/sass\/1140\.scss}line{font-family:\0000336}}
+.row .offset-by-eight {
+  padding-left: 66.667%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nicklau\/Sites\/nicklauftw_v4\/sass\/1140\.scss}line{font-family:\0000337}}
+.row .offset-by-nine {
+  padding-left: 75%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nicklau\/Sites\/nicklauftw_v4\/sass\/1140\.scss}line{font-family:\0000338}}
+.row .offset-by-ten {
+  padding-left: 83.333%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nicklau\/Sites\/nicklauftw_v4\/sass\/1140\.scss}line{font-family:\0000339}}
+.row .offset-by-eleven {
+  padding-left: 91.667%;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nicklau\/Sites\/nicklauftw_v4\/sass\/1140\.scss}line{font-family:\0000342}}
+  .container {
+    position: relative;
+    width: 92%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nicklau\/Sites\/nicklauftw_v4\/sass\/1140\.scss}line{font-family:\0000343}}
+  .columns, .column {
+    margin: 0;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nicklau\/Sites\/nicklauftw_v4\/sass\/1140\.scss}line{font-family:\0000356}}
+  .row .one.column,
+  .row .two.columns,
+  .row .three.columns,
+  .row .four.columns,
+  .row .five.columns,
+  .row .six.columns,
+  .row .seven.columns,
+  .row .eight.columns,
+  .row .nine.columns,
+  .row .ten.columns,
+  .row .eleven.columns,
+  .row .twelve.columns {
+    width: 100%;
+  }
+
+  /* Offsets */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nicklau\/Sites\/nicklauftw_v4\/sass\/1140\.scss}line{font-family:\0000373}}
+  .row .offset-by-one,
+  .row .offset-by-two,
+  .row .offset-by-three,
+  .row .offset-by-four,
+  .row .offset-by-five,
+  .row .offset-by-six,
+  .row .offset-by-seven,
+  .row .offset-by-eight,
+  .row .offset-by-nine,
+  .row .offset-by-ten,
+  .row .offset-by-eleven,
+  .row .offset-by-twelve,
+  .row .offset-by-thirteen,
+  .row .offset-by-fourteen,
+  .row .offset-by-fifteen {
+    padding-left: 0;
+  }
+}
+@media only screen and (max-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nicklau\/Sites\/nicklauftw_v4\/sass\/1140\.scss}line{font-family:\0000377}}
+  .container {
+    width: 98%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nicklau\/Sites\/nicklauftw_v4\/sass\/1140\.scss}line{font-family:\0000378}}
+  .columns, .column {
+    margin: 0;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nicklau\/Sites\/nicklauftw_v4\/sass\/1140\.scss}line{font-family:\0000391}}
+  .row .one.column,
+  .row .two.columns,
+  .row .three.columns,
+  .row .four.columns,
+  .row .five.columns,
+  .row .six.columns,
+  .row .seven.columns,
+  .row .eight.columns,
+  .row .nine.columns,
+  .row .ten.columns,
+  .row .eleven.columns,
+  .row .twelve.columns {
+    width: 100%;
+  }
+
+  /* Offsets */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nicklau\/Sites\/nicklauftw_v4\/sass\/1140\.scss}line{font-family:\00003108}}
+  .row .offset-by-one,
+  .row .offset-by-two,
+  .row .offset-by-three,
+  .row .offset-by-four,
+  .row .offset-by-five,
+  .row .offset-by-six,
+  .row .offset-by-seven,
+  .row .offset-by-eight,
+  .row .offset-by-nine,
+  .row .offset-by-ten,
+  .row .offset-by-eleven,
+  .row .offset-by-twelve,
+  .row .offset-by-thirteen,
+  .row .offset-by-fourteen,
+  .row .offset-by-fifteen {
+    padding-left: 0;
+  }
+}

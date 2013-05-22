@@ -1,9 +1,23 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
 
-<div id="post">
-{{ content }}
-</div>
+<section class="container">
+	<div class="row">
+		<div class="eight columns offset-by-four post-single">
+			<h2>{{ page.title }}</h2>
+			<p class="meta">{{ page.date | date_to_string }}</p>
+
+			<div class="post-content">
+				{{ content }}
+			</div>
+
+			<p>
+				<a href="/">Return Home</a>
+			</p>
+		</div>
+	</div>
+
+	{% include contact.html %}
+</section>
+

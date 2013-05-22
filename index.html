@@ -1,33 +1,33 @@
 ---
 layout: default
-title: Your New Jekyll Site
+title: Nick Lau FTW
 ---
 
 <div class="main-content">
 
+	<a name="home" id="home"></a>
 	<section class="intro">
 		<a href="#intro"></a>
 		<div class="container">
 			<div class="row">
-				<div class="four columns profile-pic">
+				<div class="three columns offset-by-one profile-pic">
 					<img src="img/me.png" alt="Picture of me" class="intro-img circle-img" />
 				</div>
 
-				<div class="seven columns profile-blurb" >
+				<div class="eight columns profile-blurb" >
 					<p>
-						<!-- <span> -->
 							I'm Nick Lau, a Chicago 
 							<br />
 							designer &amp; developer.
-						<!-- </span> -->
 					</p>
 				</div>
 			</div>
 		</div>
 	</section>
 
+	<a name="posts" id="posts"></a>
 	<div class="container">
-		<a href="#posts"></a>
+		<a name="posts"></a>
 		<section class="posts">
 			<div class="row">
 			  	<h1 class="eight columns offset-by-four">Posts/Recent Thoughts</h1>
@@ -48,46 +48,23 @@ title: Your New Jekyll Site
 		  	</ul>
 		</section>
 
+		<a name="work" id="work"></a>
 		<section class="projects">
-			<a href="#projects"></a>
+			<a name="projects"></a>
 			<div class="row">
 			  	<h1 class="eight columns offset-by-four">Work/Selected Projects</h1>
 			</div>
 
-			<div class="row">
-				<div class="four columns project-pic">
-					Img placeholder
-				</div>
+			{% include projects/1140.html %}
 
-				<div class="eight columns">
-					<h2>Title of project</h2>
-					<p>
-						Description blah blah blah blah
-					</p>
-					<a href="#">
-						Visit Site
-					</a>		
-				</div>
-			</div>
+			{% include projects/denton.html %}
+
+			{% include projects/ls.html %}
+
 		</section>
 
-		<section class="contact">
-			<a href="#contact"></a>
-			<div class="row">
-			  	<h1 class="eight columns offset-by-four">Contact/Holla At Me</h1>
-			</div>
-
-			<div class="row">
-				<div class="eight columns offset-by-four">
-					<ul class="">
-						<li><a href="#">ncwlau@gmail.com</a></li>
-						<li><a href="http://twitter.com/nicklauftw" target="_blank">@nicklauftw</a></li>
-						<li><a href="http://github.com/nicklauftw" target="_blank">/nicklauftw</a></li>
-						<li><a href="http://instagram.com/nicklauftw" target="_blank">@nicklauftw</a></li>
-					</ul>				
-				</div>
-			</div>
-		</section>
+		<a name="contact" id="contact"></a>
+		{% include contact.html %}
 	</div>
 
 </div> 

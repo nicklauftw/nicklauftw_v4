@@ -2,6 +2,7 @@
 @import '1140';
 @import 'utility';
 @import 'nav';
+@import 'icons';
 
 // global styles
 html {
@@ -11,6 +12,7 @@ html {
 body {
 	font-size: 1em;
 	font-family: "Helvetica Neue", sans-serif;
+	background: lighten($gray-light, 50%);
 }
 
 a, a:visited {
@@ -32,37 +34,81 @@ li {
 	list-style-type: none;
 }
 
+// type styles
+
+h1, h2, h3, h4, h5 {
+	margin: 0 0 0.5em;
+	padding: 0em;
+}
+
+
+// content styles
 .main-content {
+	background: lighten($steel, 33%);
 	section {
-		margin-bottom: 2em;
+		margin-bottom: 4em;
 	}
 
 	.intro {
-		background: $gray-light;
-		padding: 5em 0 2.5em;		
+		// background: $gray-light;
+		background: lighten($steel, 25%) !important;
+		margin-top: 2.5em;
+		padding: 4em 0 4em;			
 		.profile-pic {
 			text-align: center;
-			// z-index: 20;
 		}
 		.intro-img {
 			max-width: 66%;	
+			float: right;
 		}
 		.profile-blurb {
-			// position: relative;
-			// overflow: auto;
 			p {
 				font-size: 2em;
 				font-weight: 700;
 				line-height: 1.1;
-				margin: 2em 0;
+				margin: 1em 0;
 			}
 		}
 	}
 
 	.posts-lists {
+		font-size: 1.25em;
 		.post-date {
+			padding-top: 0.25em;
+			font-size: 0.75em;
 			text-align: right;
 		}
+	}
+
+	.project-single {
+		margin: 0 0 3em;
+
+		.project-pic {
+			margin-top: 2em;
+		}
+	}
+
+	.project-single:last-child {
+		margin: 0;
+	}	
+}
+
+.contact {
+	margin-bottom: 5em;
+}
+
+.contact .contact-list li a {
+	position: relative;
+	top: -0.5em;
+	left: 1em;
+}
+
+.post-single {
+	margin-top: 4em;
+	margin-bottom: 1em;
+	.post-content  {
+		font-family: "Georgia", serif;
+		line-height: 1.5;
 	}
 }
 

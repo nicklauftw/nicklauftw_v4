@@ -1,0 +1,1052 @@
+/* normalize.css v2.1.1 | MIT License | git.io/normalize */
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined in IE 8/9.
+ */
+/* line 22, ../sass/_normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * Correct `inline-block` display not defined in IE 8/9.
+ */
+/* line 32, ../sass/_normalize.scss */
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 41, ../sass/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+/* line 50, ../sass/_normalize.scss */
+[hidden] {
+  display: none;
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+/**
+ * 1. Prevent system color scheme's background color being used in Firefox, IE,
+ *    and Opera.
+ * 2. Prevent system color scheme's text color being used in Firefox, IE, and
+ *    Opera.
+ * 3. Set default font family to sans-serif.
+ * 4. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+/* line 68, ../sass/_normalize.scss */
+html {
+  background: #fff;
+  /* 1 */
+  color: #000;
+  /* 2 */
+  font-family: sans-serif;
+  /* 3 */
+  -ms-text-size-adjust: 100%;
+  /* 4 */
+  -webkit-text-size-adjust: 100%;
+  /* 4 */
+}
+
+/**
+ * Remove default margin.
+ */
+/* line 80, ../sass/_normalize.scss */
+body {
+  margin: 0;
+}
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+/**
+ * Address `outline` inconsistency between Chrome and other browsers.
+ */
+/* line 92, ../sass/_normalize.scss */
+a:focus {
+  outline: thin dotted;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+/* line 101, ../sass/_normalize.scss */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari 5, and Chrome.
+ */
+/* line 114, ../sass/_normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9, Safari 5, and Chrome.
+ */
+/* line 123, ../sass/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+ */
+/* line 132, ../sass/_normalize.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari 5 and Chrome.
+ */
+/* line 140, ../sass/_normalize.scss */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+/* line 148, ../sass/_normalize.scss */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+/* line 158, ../sass/_normalize.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Correct font family set oddly in Safari 5 and Chrome.
+ */
+/* line 170, ../sass/_normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+/**
+ * Improve readability of pre-formatted text in all browsers.
+ */
+/* line 179, ../sass/_normalize.scss */
+pre {
+  white-space: pre-wrap;
+}
+
+/**
+ * Set consistent quote types.
+ */
+/* line 187, ../sass/_normalize.scss */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+/* line 195, ../sass/_normalize.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 204, ../sass/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 211, ../sass/_normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 215, ../sass/_normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9.
+ */
+/* line 227, ../sass/_normalize.scss */
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow displayed oddly in IE 9.
+ */
+/* line 235, ../sass/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari 5.
+ */
+/* line 247, ../sass/_normalize.scss */
+figure {
+  margin: 0;
+}
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+/**
+ * Define consistent border, margin, and padding.
+ */
+/* line 259, ../sass/_normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+/* line 270, ../sass/_normalize.scss */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * 1. Correct font family not being inherited in all browsers.
+ * 2. Correct font size not being inherited in all browsers.
+ * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
+ */
+/* line 284, ../sass/_normalize.scss */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 296, ../sass/_normalize.scss */
+button,
+input {
+  line-height: normal;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
+ * Correct `select` style inheritance in Firefox 4+ and Opera.
+ */
+/* line 308, ../sass/_normalize.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+/* line 323, ../sass/_normalize.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+/* line 333, ../sass/_normalize.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * 1. Address box sizing set to `content-box` in IE 8/9.
+ * 2. Remove excess padding in IE 8/9.
+ */
+/* line 343, ../sass/_normalize.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+/* line 354, ../sass/_normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box;
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+/* line 367, ../sass/_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+/* line 376, ../sass/_normalize.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * 1. Remove default vertical scrollbar in IE 8/9.
+ * 2. Improve readability and alignment in all browsers.
+ */
+/* line 386, ../sass/_normalize.scss */
+textarea {
+  overflow: auto;
+  /* 1 */
+  vertical-align: top;
+  /* 2 */
+}
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+/* line 399, ../sass/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Base grid set to a min width of 80% and max width of 71.25em.  16px/1em base font size * 71.25em = 1140px
+================================================== */
+/* line 3, ../sass/_1140.scss */
+.container {
+  position: relative;
+  width: 90%;
+  max-width: 60em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 4, ../sass/_1140.scss */
+.column, .columns {
+  float: left;
+  display: inline;
+  position: relative;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+/* line 5, ../sass/_1140.scss */
+.row {
+  width: 100%;
+  overflow: auto;
+}
+
+/* Fluid Images */
+/* line 8, ../sass/_1140.scss */
+.row .column img, .row .columns img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Nested Column Classes */
+/* line 11, ../sass/_1140.scss */
+.column.alpha, .columns.alpha {
+  margin-left: 0;
+}
+
+/* line 12, ../sass/_1140.scss */
+.column.omega, .columns.omega {
+  margin-right: 0;
+}
+
+/* Base Grid */
+/* line 15, ../sass/_1140.scss */
+.row .one.column {
+  width: 6.333333333%;
+}
+
+/* line 16, ../sass/_1140.scss */
+.row .two.columns {
+  width: 14.666666666%;
+}
+
+/* line 17, ../sass/_1140.scss */
+.row .three.columns {
+  width: 22.999999999%;
+}
+
+/* line 18, ../sass/_1140.scss */
+.row .four.columns {
+  width: 31.333333333%;
+}
+
+/* line 19, ../sass/_1140.scss */
+.row .five.columns {
+  width: 39.666666666%;
+}
+
+/* line 20, ../sass/_1140.scss */
+.row .six.columns {
+  width: 47.999999999%;
+}
+
+/* line 21, ../sass/_1140.scss */
+.row .seven.columns {
+  width: 56.333333333%;
+}
+
+/* line 22, ../sass/_1140.scss */
+.row .eight.columns {
+  width: 64.666666666%;
+}
+
+/* line 23, ../sass/_1140.scss */
+.row .nine.columns {
+  width: 72.999999999%;
+}
+
+/* line 24, ../sass/_1140.scss */
+.row .ten.columns {
+  width: 81.333333333%;
+}
+
+/* line 25, ../sass/_1140.scss */
+.row .eleven.columns {
+  width: 89.666666666%;
+}
+
+/* line 26, ../sass/_1140.scss */
+.row .twelve.columns {
+  width: 97.999999999%;
+}
+
+/* Offsets */
+/* line 29, ../sass/_1140.scss */
+.row .offset-by-one {
+  padding-left: 8.3333%;
+}
+
+/* line 30, ../sass/_1140.scss */
+.row .offset-by-two {
+  padding-left: 16.667%;
+}
+
+/* line 31, ../sass/_1140.scss */
+.row .offset-by-three {
+  padding-left: 25%;
+}
+
+/* line 32, ../sass/_1140.scss */
+.row .offset-by-four {
+  padding-left: 33%;
+}
+
+/* line 33, ../sass/_1140.scss */
+.row .offset-by-five {
+  padding-left: 41.667%;
+}
+
+/* line 34, ../sass/_1140.scss */
+.row .offset-by-six {
+  padding-left: 50%;
+}
+
+/* line 35, ../sass/_1140.scss */
+.row .offset-by-seven {
+  padding-left: 58.333%;
+}
+
+/* line 36, ../sass/_1140.scss */
+.row .offset-by-eight {
+  padding-left: 66.667%;
+}
+
+/* line 37, ../sass/_1140.scss */
+.row .offset-by-nine {
+  padding-left: 75%;
+}
+
+/* line 38, ../sass/_1140.scss */
+.row .offset-by-ten {
+  padding-left: 83.333%;
+}
+
+/* line 39, ../sass/_1140.scss */
+.row .offset-by-eleven {
+  padding-left: 91.667%;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+  /* line 42, ../sass/_1140.scss */
+  .container {
+    position: relative;
+    width: 92%;
+  }
+
+  /* line 43, ../sass/_1140.scss */
+  .columns, .column {
+    margin: 0;
+  }
+
+  /* line 56, ../sass/_1140.scss */
+  .row .one.column,
+  .row .two.columns,
+  .row .three.columns,
+  .row .four.columns,
+  .row .five.columns,
+  .row .six.columns,
+  .row .seven.columns,
+  .row .eight.columns,
+  .row .nine.columns,
+  .row .ten.columns,
+  .row .eleven.columns,
+  .row .twelve.columns {
+    width: 100%;
+  }
+
+  /* Offsets */
+  /* line 73, ../sass/_1140.scss */
+  .row .offset-by-one,
+  .row .offset-by-two,
+  .row .offset-by-three,
+  .row .offset-by-four,
+  .row .offset-by-five,
+  .row .offset-by-six,
+  .row .offset-by-seven,
+  .row .offset-by-eight,
+  .row .offset-by-nine,
+  .row .offset-by-ten,
+  .row .offset-by-eleven,
+  .row .offset-by-twelve,
+  .row .offset-by-thirteen,
+  .row .offset-by-fourteen,
+  .row .offset-by-fifteen {
+    padding-left: 0;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /* line 77, ../sass/_1140.scss */
+  .container {
+    width: 98%;
+  }
+
+  /* line 78, ../sass/_1140.scss */
+  .columns, .column {
+    margin: 0;
+  }
+
+  /* line 91, ../sass/_1140.scss */
+  .row .one.column,
+  .row .two.columns,
+  .row .three.columns,
+  .row .four.columns,
+  .row .five.columns,
+  .row .six.columns,
+  .row .seven.columns,
+  .row .eight.columns,
+  .row .nine.columns,
+  .row .ten.columns,
+  .row .eleven.columns,
+  .row .twelve.columns {
+    width: 100%;
+  }
+
+  /* Offsets */
+  /* line 108, ../sass/_1140.scss */
+  .row .offset-by-one,
+  .row .offset-by-two,
+  .row .offset-by-three,
+  .row .offset-by-four,
+  .row .offset-by-five,
+  .row .offset-by-six,
+  .row .offset-by-seven,
+  .row .offset-by-eight,
+  .row .offset-by-nine,
+  .row .offset-by-ten,
+  .row .offset-by-eleven,
+  .row .offset-by-twelve,
+  .row .offset-by-thirteen,
+  .row .offset-by-fourteen,
+  .row .offset-by-fifteen {
+    padding-left: 0;
+  }
+}
+/* line 13, ../sass/_utility.scss */
+.circle-img {
+  -webkit-border-radius: 50em;
+  -moz-border-radius: 50em;
+  border-radius: 50em;
+}
+
+/* line 23, ../sass/_utility.scss */
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+
+/* line 29, ../sass/_utility.scss */
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 13, ../sass/_utility.scss */
+.circle-img {
+  -webkit-border-radius: 50em;
+  -moz-border-radius: 50em;
+  border-radius: 50em;
+}
+
+/* line 23, ../sass/_utility.scss */
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+
+/* line 29, ../sass/_utility.scss */
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 4, ../sass/_nav.scss */
+header {
+  padding: 0.75em 0;
+  width: 100%;
+  background: #a6aba8;
+  color: black;
+  border-bottom: 1px solid #8c928e;
+  position: fixed;
+  top: 0;
+  z-index: 15;
+}
+/* line 13, ../sass/_nav.scss */
+header a, header a:visited {
+  color: #162430;
+}
+/* line 16, ../sass/_nav.scss */
+header a:hover {
+  color: #3e6687;
+}
+/* line 19, ../sass/_nav.scss */
+header li {
+  display: inline;
+  margin-right: 1em;
+}
+/* line 23, ../sass/_nav.scss */
+header li:last-child {
+  margin-right: 0;
+}
+
+/* font-face */
+@font-face {
+  font-family: "SocialFoundicons";
+  src: url("/img/fonts/social_foundicons.eot");
+  src: url("/img/fonts/social_foundicons.eot?#iefix") format("embedded-opentype"), url("/img/fonts/social_foundicons.woff") format("woff"), url("/img/fonts/social_foundicons.ttf") format("truetype"), url("/img/fonts/social_foundicons.svg#SocialFoundicons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* global foundicon styles */
+/* line 37, ../sass/_icons.scss */
+[class*="foundicon-"] {
+  display: inline;
+  width: auto;
+  height: auto;
+  line-height: inherit;
+  vertical-align: middle;
+  background-image: none;
+  background-position: 0 0;
+  background-repeat: repeat;
+  font-style: none;
+  margin-left: -3em;
+}
+
+/* line 49, ../sass/_icons.scss */
+[class*="foundicon-"]:before {
+  font-size: 2em;
+  font-family: "SocialFoundicons";
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+  color: #0089bc;
+}
+
+/* icons */
+/* line 8, ../sass/_icons.scss */
+.foundicon-thumb-up:before {
+  content: "\f000";
+}
+
+/* line 8, ../sass/_icons.scss */
+.foundicon-thumb-down:before {
+  content: "\f001";
+}
+
+/* line 8, ../sass/_icons.scss */
+.foundicon-rss:before {
+  content: "\f002";
+}
+
+/* line 8, ../sass/_icons.scss */
+.foundicon-facebook:before {
+  content: "\f003";
+}
+
+/* line 8, ../sass/_icons.scss */
+.foundicon-twitter:before {
+  content: "\f004";
+}
+
+/* line 8, ../sass/_icons.scss */
+.foundicon-pinterest:before {
+  content: "\f005";
+}
+
+/* line 8, ../sass/_icons.scss */
+.foundicon-github:before {
+  content: "\f006";
+}
+
+/* line 8, ../sass/_icons.scss */
+.foundicon-path:before {
+  content: "\f007";
+}
+
+/* line 8, ../sass/_icons.scss */
+.foundicon-linkedin:before {
+  content: "\f008";
+}
+
+/* line 8, ../sass/_icons.scss */
+.foundicon-dribbble:before {
+  content: "\f009";
+}
+
+/* line 8, ../sass/_icons.scss */
+.foundicon-stumble-upon:before {
+  content: "\f00a";
+}
+
+/* line 8, ../sass/_icons.scss */
+.foundicon-behance:before {
+  content: "\f00b";
+}
+
+/* line 8, ../sass/_icons.scss */
+.foundicon-reddit:before {
+  content: "\f00c";
+}
+
+/* line 8, ../sass/_icons.scss */
+.foundicon-google-plus:before {
+  content: "\f00d";
+}
+
+/* line 8, ../sass/_icons.scss */
+.foundicon-youtube:before {
+  content: "\f00e";
+}
+
+/* line 8, ../sass/_icons.scss */
+.foundicon-vimeo:before {
+  content: "\f00f";
+}
+
+/* line 8, ../sass/_icons.scss */
+.foundicon-flickr:before {
+  content: "\f010";
+}
+
+/* line 8, ../sass/_icons.scss */
+.foundicon-slideshare:before {
+  content: "\f011";
+}
+
+/* line 8, ../sass/_icons.scss */
+.foundicon-picassa:before {
+  content: "\f012";
+}
+
+/* line 8, ../sass/_icons.scss */
+.foundicon-skype:before {
+  content: "\f013";
+}
+
+/* line 8, ../sass/_icons.scss */
+.foundicon-steam:before {
+  content: "\f014";
+}
+
+/* line 8, ../sass/_icons.scss */
+.foundicon-instagram:before {
+  content: "\f015";
+}
+
+/* line 8, ../sass/_icons.scss */
+.foundicon-foursquare:before {
+  content: "\f016";
+}
+
+/* line 8, ../sass/_icons.scss */
+.foundicon-delicious:before {
+  content: "\f017";
+}
+
+/* line 8, ../sass/_icons.scss */
+.foundicon-chat:before {
+  content: "\f018";
+}
+
+/* line 8, ../sass/_icons.scss */
+.foundicon-torso:before {
+  content: "\f019";
+}
+
+/* line 8, ../sass/_icons.scss */
+.foundicon-tumblr:before {
+  content: "\f01a";
+}
+
+/* line 8, ../sass/_icons.scss */
+.foundicon-video-chat:before {
+  content: "\f01b";
+}
+
+/* line 8, ../sass/_icons.scss */
+.foundicon-digg:before {
+  content: "\f01c";
+}
+
+/* line 8, ../sass/_icons.scss */
+.foundicon-wordpress:before {
+  content: "\f01d";
+}
+
+/* line 8, ../sass/main.scss */
+html {
+  font-size: 100%;
+}
+
+/* line 12, ../sass/main.scss */
+body {
+  font-size: 1em;
+  font-family: "Helvetica Neue", sans-serif;
+  background: white;
+}
+
+/* line 18, ../sass/main.scss */
+a, a:visited {
+  color: #0089bc;
+  text-decoration: none;
+}
+
+/* line 23, ../sass/main.scss */
+a:hover {
+  color: #006489;
+  -webkit-transition: color 0.25s linear;
+  -moz-transition: color 0.25s linear;
+  transition: color 0.25s linear;
+}
+
+/* line 28, ../sass/main.scss */
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 33, ../sass/main.scss */
+li {
+  list-style-type: none;
+}
+
+/* line 39, ../sass/main.scss */
+h1, h2, h3, h4, h5 {
+  margin: 0 0 0.5em;
+  padding: 0em;
+}
+
+/* line 46, ../sass/main.scss */
+.main-content {
+  background: #fdfdfd;
+}
+/* line 48, ../sass/main.scss */
+.main-content section {
+  margin-bottom: 4em;
+}
+/* line 52, ../sass/main.scss */
+.main-content .intro {
+  background: #e8e9e8 !important;
+  margin-top: 2.5em;
+  padding: 4em 0 4em;
+}
+/* line 57, ../sass/main.scss */
+.main-content .intro .profile-pic {
+  text-align: center;
+}
+/* line 60, ../sass/main.scss */
+.main-content .intro .intro-img {
+  max-width: 66%;
+  float: right;
+}
+/* line 65, ../sass/main.scss */
+.main-content .intro .profile-blurb p {
+  font-size: 2em;
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 1em 0;
+}
+/* line 74, ../sass/main.scss */
+.main-content .posts-lists {
+  font-size: 1.25em;
+}
+/* line 76, ../sass/main.scss */
+.main-content .posts-lists .post-date {
+  padding-top: 0.25em;
+  font-size: 0.75em;
+  text-align: right;
+}
+/* line 83, ../sass/main.scss */
+.main-content .project-single {
+  margin: 0 0 3em;
+}
+/* line 86, ../sass/main.scss */
+.main-content .project-single .project-pic {
+  margin-top: 2em;
+}
+/* line 91, ../sass/main.scss */
+.main-content .project-single:last-child {
+  margin: 0;
+}
+
+/* line 96, ../sass/main.scss */
+.contact {
+  margin-bottom: 5em;
+}
+
+/* line 100, ../sass/main.scss */
+.contact .contact-list li a {
+  position: relative;
+  top: -0.5em;
+  left: 1em;
+}
+
+/* line 106, ../sass/main.scss */
+.post-single {
+  margin-top: 4em;
+  margin-bottom: 1em;
+}
+/* line 109, ../sass/main.scss */
+.post-single .post-content {
+  font-family: "Georgia", serif;
+  line-height: 1.5;
+}
